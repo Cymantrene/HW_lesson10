@@ -31,14 +31,14 @@ for (i=0; i<len; i++)
         count = 0;
     }
 
-if (count > max) {  // Проверка последнего слова
+if (count > max) {  
     max = count;
     index_max = i - count;
 }
-max += index_max; // Сложение, совмещённое с присваиванием
+max += index_max; 
 //printf("\nThe long word:\n");
-for (i=index_max; i<max; i++) //Создание цикла подсчета
-    //putchar(s[i]); //Вывод символов по индексу
+for (i=index_max; i<max; i++) 
+    //putchar(s[i]); 
    {
        res[j++]= s[i];
    }
